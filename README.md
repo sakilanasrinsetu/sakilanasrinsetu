@@ -1,8 +1,8 @@
 ### Hi, I am Sakila Nasrin Setu 👋
 
-**sakilanasrinsetu/sakilanasrinsetu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- **sakilanasrinsetu/sakilanasrinsetu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
-Here are some ideas to get you started:
+<!-- Here are some ideas to get you started: -->
 
 - 🔭 I’m currently working on Python and Django
 - 🌱 I’m currently learning Vue JS
