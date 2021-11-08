@@ -24,3 +24,9 @@
 
 
 <!-- ![Harshal Jadhav Medium](https://mediumblog-cards.vercel.app/getMediumBlogs?username=harshalrj25)](https://medium.com/@harshalrj25) -->
+<!-- 
+ git branch statble
+ git checkout master
+ git merge hotfix 
+ git branch -d hotfix
+-->
