@@ -29,4 +29,21 @@
  git checkout master
  git merge hotfix 
  git branch -d hotfix
+
+def post_json_response(request):
+    post_qs = Post.objects.all()[0:1]
+    post_list = list(post_qs.values())
+    return JsonResponse(post_list, safe=False)
+
+def post_response(request):
+    # response = requests.get('https://api.covid19api.com/countries').json()
+    response = requests.get('https://127.0.0.1/post_json_response/', verify=False)
+    # requests.get('https://google.com', verify=False)
+    # r = requests.post(url, data=json.dumps(payload), headers=headers, timeout=5)
+    # time.sleep(5)
+    print('sleep')
+    context= {
+        'response':response
+    }
+    return render(request, 'dashboard/check.html', context)
 -->
