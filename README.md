@@ -29,5 +29,4 @@
  git checkout master
  git merge hotfix 
  git branch -d hotfix
- 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
 -->
