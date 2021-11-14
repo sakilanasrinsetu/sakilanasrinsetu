@@ -46,4 +46,8 @@ def post_response(request):
         'response':response
     }
     return render(request, 'dashboard/check.html', context)
+
+python manage.py makemessages --all
+python manage.py compilemessages
+
 -->
